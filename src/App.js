@@ -6,6 +6,8 @@ import Articles from './pages/Articles';
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Nav from './components/Nav';
+import Weather from './pages/Weather';
+
 
 function App() {
   return (
@@ -25,13 +27,16 @@ function App() {
  <Route path='/articles' element={<Articles />}/> 
  <Route path='/projects' element={<Projects />}/> 
  <Route path='/contact' element={<Contact />}/> 
+ <Route path='/weather' element={<Weather />}/> 
+ <Route path='/weather/:location' element={<Weather/>}/> 
+
 
 
 
    </Routes>
 
       
-   
+  
 
     </div>
   );
