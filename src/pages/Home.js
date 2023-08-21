@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 // import Wheather from "./Weather";
 // import WheaterData from "./Weather-data";
-// import { useEffect } from "react";
+import { useEffect } from "react";
 
 export default function Home() {
   // useEffect(()=>{
@@ -11,7 +11,19 @@ export default function Home() {
 
   // },[])
 
+  useEffect(() => {
+    if (document) {
+      const stylesheet = document.createElement("link");
+      stylesheet.rel = "stylesheet";
+      stylesheet.href = "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css";
+
+      document.head.appendChild(stylesheet);
+    }
+  }, []);
+
   return (
+    <header className="App-header">
+    
     <main className="max-w-[80ch] mx-auto px-4">
       <section className="py-24 intro-animation relative">
 
@@ -87,5 +99,6 @@ export default function Home() {
         </h3>
       </section>
     </main>
+    </header>
   );
 }

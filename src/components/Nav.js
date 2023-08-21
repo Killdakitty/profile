@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 
 export default function Nav() {
+
+
+
   return (
+ 
+
     <div
       className="container: {
         center: true,
@@ -39,5 +44,6 @@ export default function Nav() {
         </Link>
       </div>
     </div>
+  
   );
 }

@@ -26,3 +26,20 @@ fetching the data from the api to work was challenging and there's definitely a 
 ## Credits
 Credit to benadam for the layout of the site 
  https://benadam.me/
+
+
+ ##  To finish your setup:
+
+// 1. Replace this in your HTML
+<form method="POST" action="https://herotofu.com/start">
+
+// To
+<form
+  method="POST"
+  action="https://public.herotofu.com/40cade40-4037-11ee-83bc-53072c77bc2f"
+>
+
+// 2. Complete the registration below
+// 3. Confirm your email
+
+// Done!
