@@ -24,7 +24,7 @@ export default function Home() {
             👋 Hello, my name is Alex.
           </h1>
 
-          <h2 class="font-serif italic text-2xl">
+          <h2 className="font-serif italic text-2xl">
             I'm a software engingeer from NYC!
             <br />I recently graduated from{" "}
             <a
@@ -45,36 +45,36 @@ export default function Home() {
           Articles
         </h3>
 
-        <li class="block mb-12">
-          <time class="font-serif italic font-medium text-grey2 text-md mb-2">
+        <li className="block mb-12">
+          <time className="font-serif italic font-medium text-grey2 text-md mb-2">
             8/18/2023
           </time>
           <a href="https://medium.com/alan/5-articles-every-software-engineer-should-read-56b0d9de2c43">
-            <h3 class="text-3xl font-bold">
+            <h3 className="text-3xl font-bold">
               Every Software Engineer Should Read
             </h3>
           </a>
         </li>
 
-        <li class="block mb-12">
-          <time class="font-serif italic font-medium text-grey2 text-md mb-2">
+        <li className="block mb-12">
+          <time className="font-serif italic font-medium text-grey2 text-md mb-2">
             8/18/2023
           </time>
           <a href="https://www.theforage.com/blog/careers/day-in-life-software-engineer">
-            <h3 class="text-3xl font-bold">
+            <h3 className="text-3xl font-bold">
               Day in the life of a software Engineer
             </h3>
           </a>
         </li>
       </section>
 
-      <a href="/articles" class="more-link">
-        More <span class="arrow">→</span>
+      <a href="/articles" className="more-link">
+        More <span className="arrow">→</span>
       </a>
       <br></br>
 
-      <section class="fade-in pt-12">
-        <h3 class="uppercase text-2xl mb-12 font-bold text-accent">
+      <section className="fade-in pt-12">
+        <h3 className="uppercase text-2xl mb-12 font-bold text-accent">
           Current News
         </h3>
       </section>
