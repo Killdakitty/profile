@@ -19,6 +19,7 @@ export default function Footer() {
         <img height="80" width="90"  src={"https://visualpharm.com/assets/720/Github-595b40b65ba036ed117d442f.svg"} alt="Coding Beauty logo"></img></a>
 
         </div>
+        
 
         
 </div>

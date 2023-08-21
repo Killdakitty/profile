@@ -14,9 +14,7 @@ export default function Home() {
   return (
     <main className="max-w-[80ch] mx-auto px-4">
       <section className="py-24 intro-animation relative">
-        <Link to="/weather" className="opacity-80 underline">
-         Today's  Weather
-        </Link>
+
 
         <div className=" ">
           <h1 className="text-4xl mb-4 font-bold">
@@ -26,7 +24,7 @@ export default function Home() {
 
           <h2 className="font-serif italic text-2xl">
             I'm a software engingeer from NYC!
-            <br />I recently graduated from{" "}
+            <br />I am currently enrolled in{" "}
             <a
               className="opacity-80 underline"
               href="https://perscholas.org/about-per-scholas/?utm_source=google&utm_medium=ad_grant&utm_campaign=branded&utm_term=per%20scholas&utm_campaign=Per+Scholas:+Awareness&utm_source=adwords&utm_medium=ppc&hsa_acc=7812736465&hsa_cam=16560851475&hsa_grp=132888643605&hsa_ad=607349033489&hsa_src=g&hsa_tgt=kwd-342525298009&hsa_kw=per%20scholas&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwrfymBhCTARIsADXTablHpgSY675IKzTiORecW1FaL90UfJyFqK5TLBp4CCXlKfjFl5sTRkcaAtXGEALw_wcB"
@@ -35,6 +33,9 @@ export default function Home() {
             </a>{" "}
             bootcamp!
           </h2>
+          <Link to="/weather" className="opacity-80 underline">
+         Check out Today's  Weather
+        </Link>
         </div>
       </section>
       <br />
@@ -75,7 +76,14 @@ export default function Home() {
 
       <section className="fade-in pt-12">
         <h3 className="uppercase text-2xl mb-12 font-bold text-accent">
-          Current News
+         Projects
+        </h3>
+      </section>
+
+
+      <section className="fade-in pt-12">
+        <h3 className="uppercase text-2xl mb-12 font-bold text-accent">
+         Contact
         </h3>
       </section>
     </main>
