@@ -35,14 +35,16 @@ export default function Weather(props) {
 
   //show the fetched data
   const loaded = () => {
+    let Cel=weather.data.timelines[0].intervals[0].values.temperature
     return (
-      <div>
-        <h2>Current Temperature</h2>
-        <h1>{weather.timelines[0].intervals[0].values.temperature}</h1>
+      <div  className="text-3xl" >
+        <h2>Current Temperature:</h2>
+        {/* <h1>{weather.data.timelines[0].intervals[0].values.temperature}</h1> */}
+        <h3>{Cel*9/5+32} <sup>O</sup>F </h3>
       </div>
     );
   };
   const loading = () => <h1>loading weather....</h1>;
 
-  return weather && weather.timelines ? loaded() : loading();
+  return weather && weather.data ? loaded() : loading();
 }

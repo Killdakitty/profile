@@ -4,9 +4,10 @@ import {Routes, Route} from 'react-router-dom'
 import Home from './pages/Home';
 import Articles from './pages/Articles';
 import Projects from './pages/Projects'
-import Contact from './pages/Contact'
 import Nav from './components/Nav';
 import Weather from './pages/Weather';
+import Footer from './components/Footer';
+import Contacts from './pages/Contacts';
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
  <Route path='/' element={<Home />}/> 
  <Route path='/articles' element={<Articles />}/> 
  <Route path='/projects' element={<Projects />}/> 
- <Route path='/contact' element={<Contact />}/> 
+ <Route path='/contacts' element={<Contacts />}/> 
+
  <Route path='/weather' element={<Weather />}/> 
  <Route path='/weather/:location' element={<Weather/>}/> 
 
@@ -34,7 +36,7 @@ function App() {
 
 
    </Routes>
-
+<Footer />
       
   
 
